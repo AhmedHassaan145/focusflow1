@@ -1,0 +1,22 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FocusFlow</title><link rel="stylesheet" href="style.css"></head><body>
+<div id="auth"><form id="af" class="card"><svg viewBox="0 0 64 64" width="56"><path d="M32 4 6 22l14 6 6 26 6-14 26-18z" fill="#c4161c"/></svg><h1>Focus<span>Flow</span></h1><h2 id="at"></h2>
+<input id="an" placeholder="Full name"><input id="ae1" type="email" placeholder="Email" required><input id="ap" type="password" placeholder="Password (6+ characters)" required>
+<p class="err" id="ae"></p><button class="btn" id="ab"></button><p class="swt" id="asw"></p></form></div>
+<div id="app" hidden>
+<aside><div class="logo"><svg viewBox="0 0 64 64" width="52"><path d="M32 4 6 22l14 6 6 26 6-14 26-18z" fill="#c4161c"/></svg><h1>Focus<span>Flow</span></h1><small>Plan. Focus. Achieve.</small></div>
+<nav><button data-nav="dashboard">🏠 Dashboard</button><button data-nav="tasks">☑️ My Tasks</button><button data-nav="goals">🎯 Goals</button><button data-nav="analytics">📊 Analytics</button><button data-nav="calendar">📅 Calendar</button><button data-nav="settings">⚙️ Settings</button></nav>
+<button class="lo" data-a="out">⎋ Log Out</button></aside>
+<main><header>
+<div class="pw sw"><input id="q" placeholder="Search anything... (Ctrl + K)" autocomplete="off"><div id="sr" class="dd" hidden></div></div>
+<div class="pw"><button class="ib" data-a="bell">🔔<i id="bd"></i></button><div id="nl" class="dd" hidden></div></div>
+<label class="dt" data-a="dp">📅 <span id="dl"></span> ▾<input type="date" id="dp"></label>
+<div class="pw"><button class="av" data-a="menu"></button><div id="mn" class="dd" hidden><button data-nav="settings">👤 Profile &amp; settings</button><button data-a="out">⎋ Log out</button></div></div></header>
+<section id="hi" data-v="dashboard"></section>
+<div id="gr"><div id="st" data-v="dashboard"></div>
+<section class="card" id="pomo" data-v="dashboard"></section>
+<section class="card" id="goals" data-v="dashboard goals"></section>
+<section class="card" id="ana" data-v="dashboard analytics"></section>
+<section class="card" id="tasks" data-v="dashboard tasks"></section>
+<section class="card" id="cal" data-v="calendar"></section>
+<section class="card" id="set" data-v="settings"></section></div></main></div>
+<script src="app.js"></script></body></html>
